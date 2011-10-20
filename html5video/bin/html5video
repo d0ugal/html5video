@@ -1,0 +1,20 @@
+#!/usr/bin/env python
+
+from optparse import OptionParser
+
+from html5video import Encoder
+
+usage = "usage: %prog [options] inputfile"
+parser = OptionParser(usage=usage)
+parser.add_option("-o", "--output",
+                  metavar="FILE", help="Output file directory.")
+if __name__ == "__main__":
+
+    (options, args) = parser.parse_args()
+    if options.output:
+        output = options.output
+    else:
+        output = None
+
+    encoder = Encoder(args[0], output)
+    encoder.all_html5()

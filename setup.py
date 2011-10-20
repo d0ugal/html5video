@@ -124,6 +124,7 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Topic :: Internet :: WWW/HTTP',
     ],
+    scripts=['html5video/bin/html5video'],
     zip_safe=False,
     install_requires=[
         'unipath==0.2.1',
