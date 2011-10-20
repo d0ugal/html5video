@@ -1,0 +1,11 @@
+FFmpeg version SVN-r0.5.1-4:0.5.1-1ubuntu1.2, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --extra-version=4:0.5.1-1ubuntu1.2 --prefix=/usr --enable-avfilter --enable-avfilter-lavf --enable-vdpau --enable-bzlib --enable-libgsm --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvorbis --enable-pthreads --enable-zlib --disable-stripping --disable-vhook --enable-runtime-cpudetect --enable-gpl --enable-postproc --enable-swscale --enable-x11grab --enable-libdc1394 --enable-shared --disable-static
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 1 / 52.20. 1
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Sep 16 2011 17:04:18, gcc: 4.4.3
+At least one output file must be specified
